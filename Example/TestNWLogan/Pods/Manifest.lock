@@ -1,0 +1,18 @@
+PODS:
+  - NWLogan (1.2.7):
+    - NWLogan/mbedtls (= 1.2.7)
+  - NWLogan/mbedtls (1.2.7)
+
+DEPENDENCIES:
+  - NWLogan (from `../../`)
+
+EXTERNAL SOURCES:
+  NWLogan:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  NWLogan: 9fae82286ed51f524d8cad4d52f12b7690a8e4ea
+
+PODFILE CHECKSUM: efc084ef5279236467734bb975750114c0c06e5f
+
+COCOAPODS: 1.9.3

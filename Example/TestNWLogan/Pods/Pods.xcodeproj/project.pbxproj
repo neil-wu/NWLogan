@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08D22D40A96DB134EA9898FE3B5F4447 /* base_util.c in Sources */ = {isa = PBXBuildFile; fileRef = E7EBAB08974EEC0E9DF0E256A28D4817 /* base_util.c */; };
+		0A97D44EAF5406B37C46F3215A80918E /* Pods-TestNWLogan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D1E3F04C5CC97532F7633F5EA9EAFA4 /* Pods-TestNWLogan-dummy.m */; };
+		164C16F08B9D85EEF98BDB2457AE8280 /* padlock.h in Headers */ = {isa = PBXBuildFile; fileRef = B4A64434C7AFC6A75EC42EAD6DF86E76 /* padlock.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		1AD05043DE7DD74792B8100CF416CD3B /* base_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 677A4406A00BBF9968362182B387594C /* base_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		284A5952416C196A97306E3A54D115D1 /* json_util.c in Sources */ = {isa = PBXBuildFile; fileRef = CE570CCF28D43104DDF2A31D1957A16E /* json_util.c */; };
+		2F45C27BCEF79EC0F15A18A32D23F24D /* Logan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3997F6F74D8D03ACAE33983F6CDD0F70 /* Logan.m */; };
+		32E202701D095007C411FDFF8433894F /* json_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 95435B5C18DB136780545B3CC7CD836C /* json_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		51EF5286A23A04EB5F2CB330FABA5D4C /* NWLogan-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BF94616E352EE218B03A7DDFF76ABB /* NWLogan-dummy.m */; };
+		53638F7DFD9CBDE46FD179C1BAE3B199 /* cJSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCF13DB6B6137140ADE75A68A90A18A /* cJSON.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5AF878421CBB5DA448AAC70FED3F88E7 /* zlib_util.c in Sources */ = {isa = PBXBuildFile; fileRef = A26C53DB398BAD3A3B616D9335FA1C92 /* zlib_util.c */; };
+		5B55632440347F879BC376A710C89641 /* construct_data.c in Sources */ = {isa = PBXBuildFile; fileRef = E45577D4945391A0F2444AE91E837472 /* construct_data.c */; };
+		70202F099240A4E4AAA0CDD47EDF6452 /* console_util.h in Headers */ = {isa = PBXBuildFile; fileRef = E06C0635C0A4248952A8CE646972542B /* console_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7E9172C97AF93C83A67936DBC0B3FD0E /* NWLogan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE1296D66F59C41A2FE8B02F2748E5BF /* NWLogan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81D77C9594DBD6712D19330566306175 /* platform.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8A9DD8E3B7FD200954FF8BC2F6BD0F /* platform.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		8792A381B45596862748777140C26713 /* cJSON.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B3C5C5F06D231786ED44D00F4D7775E /* cJSON.c */; };
+		994D7C4A168BF45731504C3FA5E08E22 /* mmap_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E3F7479C6F5C8052AC6CBDD1A326384 /* mmap_util.c */; };
+		9CF41E616B65AF32FFD48D72D161218D /* aesni.c in Sources */ = {isa = PBXBuildFile; fileRef = 89301A6198E798592E0EF147CFD1A743 /* aesni.c */; };
+		A3E6EDAE0B13D77244953053BF99AC7A /* aes_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E73947AEF5A13ADAFF5948E7E22B1EF /* aes_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A49E0E691CDED4A0DFEC30EEF4AFA0EC /* zlib_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 008C7CA72F9BBADBF0E5A169B3B585BA /* zlib_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AA92A26B08B38626EA0627958962B29F /* aes.h in Headers */ = {isa = PBXBuildFile; fileRef = A5359681F534648C96964CBE81ACE15B /* aes.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		ABBD9B1C2E13D740183FD3F472CB82CD /* check_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E689F5268738C293EDFDCDA05673FE8 /* check_config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		AC285E22BC3CA715ECC3030409B3BAAA /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF2C815CF3BB64C9F8AA7C1EBAE2809 /* config.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		B3410D79EB5E1210084A2724CA4E8A14 /* Pods-TestNWLogan-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 606FE2FC183350DDAD6BBAD2E7F22BB5 /* Pods-TestNWLogan-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A4A4E6F4D9A1049F3DE8F4C8CE1F53 /* directory_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E2AEB8A0404505A47EB856BC015791 /* directory_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BD9EE26E389DC73DC972578EEE6B2566 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C11A5880DCD5345E14F6B17CFF81448B /* construct_data.h in Headers */ = {isa = PBXBuildFile; fileRef = 7419BB998E95BA31ACAF320E40F47947 /* construct_data.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C4586747A55871AA7B35811C5ED4AAAE /* clogan_core.c in Sources */ = {isa = PBXBuildFile; fileRef = C0B68AD239AB5EC102B96A57C3295860 /* clogan_core.c */; };
+		C8A645C5FC6E458D309E4A119062978F /* aesni.h in Headers */ = {isa = PBXBuildFile; fileRef = 543180C518EFFD6CE23BE926F9E1A515 /* aesni.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CD2B932D898F8D6917F12BFF27E38526 /* platform_time.h in Headers */ = {isa = PBXBuildFile; fileRef = 17EAFCAED847BA19BD90ACE23F3DD914 /* platform_time.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		D66CEE60E561D1B13094B5CCFAA37D5D /* directory_util.c in Sources */ = {isa = PBXBuildFile; fileRef = BDC3FAE26037652C0B6B42482D7AECD3 /* directory_util.c */; };
+		E6B966EFC4BD66EB51FA45C44D04AC91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EEAABE7584ABBB6E2FE414123173A9DB /* mmap_util.h in Headers */ = {isa = PBXBuildFile; fileRef = 17E86EAD5A668FB5FCBE6DA51EC352E4 /* mmap_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F8657296C4493D24CC4B5CC93833782D /* logan_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D625FEBD8F2EF24BCC5961B71D0BE8 /* logan_config.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F887BA3DDB506657806707B96A9BC00F /* aes_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 65C52013132226C50EE077A2EBF3FD52 /* aes_util.c */; };
+		F9042107D52F61C3BA99ACEE2FF8DF8E /* aes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0A25CB4E36B22FF39BCA0ED06AEE48DC /* aes.c */; };
+		FA47C2E77C51276ACDCB9AF4EFFEB479 /* Logan.h in Headers */ = {isa = PBXBuildFile; fileRef = 761034E6B5CF0D584D5ADA6CF3B2C409 /* Logan.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FAAAFC40C958C803D6E68C0CE0A793B8 /* clogan_core.h in Headers */ = {isa = PBXBuildFile; fileRef = 05866EA2EE2E74FC445D014F682E969D /* clogan_core.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FC748FD564D724A6CBC54D0E98D33794 /* clogan_status.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F596E1431B4E9351135DC5F6D7FF066 /* clogan_status.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FCA7CBB680E763FB87D39D9F788F89F4 /* console_util.c in Sources */ = {isa = PBXBuildFile; fileRef = A8358A1D5597D3EA5F029B67B49DBAE1 /* console_util.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80C07EDD1893B29A4AE48CB9A8C14679 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22C22B08A1BAB02823645E4C82F866F5;
+			remoteInfo = NWLogan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		008C7CA72F9BBADBF0E5A169B3B585BA /* zlib_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = zlib_util.h; sourceTree = "<group>"; };
+		02D625FEBD8F2EF24BCC5961B71D0BE8 /* logan_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = logan_config.h; sourceTree = "<group>"; };
+		05866EA2EE2E74FC445D014F682E969D /* clogan_core.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clogan_core.h; sourceTree = "<group>"; };
+		09BF4C48974FBC4BDEEEBC678CE76447 /* Pods-TestNWLogan-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestNWLogan-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0A25CB4E36B22FF39BCA0ED06AEE48DC /* aes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aes.c; path = Source/mbedtls/aes.c; sourceTree = "<group>"; };
+		0CCF13DB6B6137140ADE75A68A90A18A /* cJSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = cJSON.h; sourceTree = "<group>"; };
+		0E689F5268738C293EDFDCDA05673FE8 /* check_config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = check_config.h; path = Source/mbedtls/check_config.h; sourceTree = "<group>"; };
+		108285C1C3509595533EA3F5D9194629 /* NWLogan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NWLogan.framework; path = NWLogan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		14D5B22DDFA80E3EE3D976BBE71F32E9 /* Pods-TestNWLogan-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNWLogan-acknowledgements.plist"; sourceTree = "<group>"; };
+		17E86EAD5A668FB5FCBE6DA51EC352E4 /* mmap_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = mmap_util.h; sourceTree = "<group>"; };
+		17EAFCAED847BA19BD90ACE23F3DD914 /* platform_time.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform_time.h; path = Source/mbedtls/platform_time.h; sourceTree = "<group>"; };
+		2890F99641F54E8648FD031434C8F188 /* NWLogan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NWLogan.modulemap; sourceTree = "<group>"; };
+		3060039913131AECA45689BA758228FE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3997F6F74D8D03ACAE33983F6CDD0F70 /* Logan.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Logan.m; sourceTree = "<group>"; };
+		3D8A9DD8E3B7FD200954FF8BC2F6BD0F /* platform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = platform.h; path = Source/mbedtls/platform.h; sourceTree = "<group>"; };
+		543180C518EFFD6CE23BE926F9E1A515 /* aesni.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aesni.h; path = Source/mbedtls/aesni.h; sourceTree = "<group>"; };
+		543D629D04878B338421D7F29572F14A /* NWLogan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NWLogan-Info.plist"; sourceTree = "<group>"; };
+		606FE2FC183350DDAD6BBAD2E7F22BB5 /* Pods-TestNWLogan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestNWLogan-umbrella.h"; sourceTree = "<group>"; };
+		65C52013132226C50EE077A2EBF3FD52 /* aes_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = aes_util.c; sourceTree = "<group>"; };
+		677A4406A00BBF9968362182B387594C /* base_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = base_util.h; sourceTree = "<group>"; };
+		72E2AEB8A0404505A47EB856BC015791 /* directory_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = directory_util.h; sourceTree = "<group>"; };
+		7419BB998E95BA31ACAF320E40F47947 /* construct_data.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = construct_data.h; sourceTree = "<group>"; };
+		761034E6B5CF0D584D5ADA6CF3B2C409 /* Logan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Logan.h; sourceTree = "<group>"; };
+		7B071B25EA088D6764B1F7F72101392D /* Pods-TestNWLogan-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestNWLogan-frameworks.sh"; sourceTree = "<group>"; };
+		7D1E3F04C5CC97532F7633F5EA9EAFA4 /* Pods-TestNWLogan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestNWLogan-dummy.m"; sourceTree = "<group>"; };
+		7D84944FBDCAF012498BFFEF85B09AC3 /* NWLogan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NWLogan.release.xcconfig; sourceTree = "<group>"; };
+		8637EE95F8C29E804E5A4D8536BF4E33 /* NWLogan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NWLogan.debug.xcconfig; sourceTree = "<group>"; };
+		87FB2FAC5FABC00A5504858876D2F53A /* Pods-TestNWLogan.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestNWLogan.modulemap"; sourceTree = "<group>"; };
+		89301A6198E798592E0EF147CFD1A743 /* aesni.c */ = {isa = PBXFileReference; includeInIndex = 1; name = aesni.c; path = Source/mbedtls/aesni.c; sourceTree = "<group>"; };
+		8B3C5C5F06D231786ED44D00F4D7775E /* cJSON.c */ = {isa = PBXFileReference; includeInIndex = 1; path = cJSON.c; sourceTree = "<group>"; };
+		8E3F7479C6F5C8052AC6CBDD1A326384 /* mmap_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = mmap_util.c; sourceTree = "<group>"; };
+		8E73947AEF5A13ADAFF5948E7E22B1EF /* aes_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = aes_util.h; sourceTree = "<group>"; };
+		8F596E1431B4E9351135DC5F6D7FF066 /* clogan_status.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = clogan_status.h; sourceTree = "<group>"; };
+		93BF94616E352EE218B03A7DDFF76ABB /* NWLogan-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NWLogan-dummy.m"; sourceTree = "<group>"; };
+		95435B5C18DB136780545B3CC7CD836C /* json_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = json_util.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A26C53DB398BAD3A3B616D9335FA1C92 /* zlib_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = zlib_util.c; sourceTree = "<group>"; };
+		A5359681F534648C96964CBE81ACE15B /* aes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = aes.h; path = Source/mbedtls/aes.h; sourceTree = "<group>"; };
+		A8358A1D5597D3EA5F029B67B49DBAE1 /* console_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = console_util.c; sourceTree = "<group>"; };
+		B4A64434C7AFC6A75EC42EAD6DF86E76 /* padlock.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = padlock.h; path = Source/mbedtls/padlock.h; sourceTree = "<group>"; };
+		B88224B796D37DB34A4185C55B6416A2 /* Pods-TestNWLogan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNWLogan.debug.xcconfig"; sourceTree = "<group>"; };
+		BDC3FAE26037652C0B6B42482D7AECD3 /* directory_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = directory_util.c; sourceTree = "<group>"; };
+		C0B68AD239AB5EC102B96A57C3295860 /* clogan_core.c */ = {isa = PBXFileReference; includeInIndex = 1; path = clogan_core.c; sourceTree = "<group>"; };
+		CE570CCF28D43104DDF2A31D1957A16E /* json_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = json_util.c; sourceTree = "<group>"; };
+		CEA3F3D21319A516CB3A96389220A0B7 /* Pods-TestNWLogan-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestNWLogan-Info.plist"; sourceTree = "<group>"; };
+		DDF2C815CF3BB64C9F8AA7C1EBAE2809 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = Source/mbedtls/config.h; sourceTree = "<group>"; };
+		E06C0635C0A4248952A8CE646972542B /* console_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = console_util.h; sourceTree = "<group>"; };
+		E0F1107194135B3507E6CC72314D9210 /* NWLogan.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = NWLogan.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E45577D4945391A0F2444AE91E837472 /* construct_data.c */ = {isa = PBXFileReference; includeInIndex = 1; path = construct_data.c; sourceTree = "<group>"; };
+		E7EBAB08974EEC0E9DF0E256A28D4817 /* base_util.c */ = {isa = PBXFileReference; includeInIndex = 1; path = base_util.c; sourceTree = "<group>"; };
+		E943F9C226EBCCD748C4D0F0BC09FF7A /* Pods_TestNWLogan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestNWLogan.framework; path = "Pods-TestNWLogan.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2D0C111D075256057AFF5ED6FF9AC9B /* Pods-TestNWLogan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestNWLogan.release.xcconfig"; sourceTree = "<group>"; };
+		F9E6A0E6B17BCF158ED6AAA644AB2EC1 /* NWLogan-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWLogan-prefix.pch"; sourceTree = "<group>"; };
+		FE1296D66F59C41A2FE8B02F2748E5BF /* NWLogan-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NWLogan-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAF095E16AAD5CC41BD292BE911F661B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6B966EFC4BD66EB51FA45C44D04AC91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2FEA4D146E1C47008CCA360F940C9B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD9EE26E389DC73DC972578EEE6B2566 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0260D255E1AD8085913DCE2A9FEF2330 /* Clogan */ = {
+			isa = PBXGroup;
+			children = (
+				65C52013132226C50EE077A2EBF3FD52 /* aes_util.c */,
+				8E73947AEF5A13ADAFF5948E7E22B1EF /* aes_util.h */,
+				E7EBAB08974EEC0E9DF0E256A28D4817 /* base_util.c */,
+				677A4406A00BBF9968362182B387594C /* base_util.h */,
+				8B3C5C5F06D231786ED44D00F4D7775E /* cJSON.c */,
+				0CCF13DB6B6137140ADE75A68A90A18A /* cJSON.h */,
+				C0B68AD239AB5EC102B96A57C3295860 /* clogan_core.c */,
+				05866EA2EE2E74FC445D014F682E969D /* clogan_core.h */,
+				8F596E1431B4E9351135DC5F6D7FF066 /* clogan_status.h */,
+				A8358A1D5597D3EA5F029B67B49DBAE1 /* console_util.c */,
+				E06C0635C0A4248952A8CE646972542B /* console_util.h */,
+				E45577D4945391A0F2444AE91E837472 /* construct_data.c */,
+				7419BB998E95BA31ACAF320E40F47947 /* construct_data.h */,
+				BDC3FAE26037652C0B6B42482D7AECD3 /* directory_util.c */,
+				72E2AEB8A0404505A47EB856BC015791 /* directory_util.h */,
+				CE570CCF28D43104DDF2A31D1957A16E /* json_util.c */,
+				95435B5C18DB136780545B3CC7CD836C /* json_util.h */,
+				02D625FEBD8F2EF24BCC5961B71D0BE8 /* logan_config.h */,
+				8E3F7479C6F5C8052AC6CBDD1A326384 /* mmap_util.c */,
+				17E86EAD5A668FB5FCBE6DA51EC352E4 /* mmap_util.h */,
+				A26C53DB398BAD3A3B616D9335FA1C92 /* zlib_util.c */,
+				008C7CA72F9BBADBF0E5A169B3B585BA /* zlib_util.h */,
+			);
+			name = Clogan;
+			path = Source/Clogan;
+			sourceTree = "<group>";
+		};
+		4577F56A9FC439A3F9F27234502FAC1E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				796E9B86AC9AD9EBFB209BA69E7DAD70 /* NWLogan */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4AB2C1C3C6D5CEA1D00A27B473CD586F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				761034E6B5CF0D584D5ADA6CF3B2C409 /* Logan.h */,
+				3997F6F74D8D03ACAE33983F6CDD0F70 /* Logan.m */,
+			);
+			name = iOS;
+			path = Source/iOS;
+			sourceTree = "<group>";
+		};
+		56DF8A64464C37440D3FDFDFBFCE656E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				108285C1C3509595533EA3F5D9194629 /* NWLogan.framework */,
+				E943F9C226EBCCD748C4D0F0BC09FF7A /* Pods_TestNWLogan.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796E9B86AC9AD9EBFB209BA69E7DAD70 /* NWLogan */ = {
+			isa = PBXGroup;
+			children = (
+				0260D255E1AD8085913DCE2A9FEF2330 /* Clogan */,
+				4AB2C1C3C6D5CEA1D00A27B473CD586F /* iOS */,
+				D0DAF3A97753C0C0C09F7AE90657997E /* mbedtls */,
+				EF8D10F490DC559B5BFB23D0CF7001F9 /* Pod */,
+				C70C9D108771EC170102523CADAB89E8 /* Support Files */,
+			);
+			name = NWLogan;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		B45D425D43E01C034464BAC4C51FE527 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FCD2FAAE139F98F82ACF42B66C6131E9 /* Pods-TestNWLogan */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C70C9D108771EC170102523CADAB89E8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2890F99641F54E8648FD031434C8F188 /* NWLogan.modulemap */,
+				93BF94616E352EE218B03A7DDFF76ABB /* NWLogan-dummy.m */,
+				543D629D04878B338421D7F29572F14A /* NWLogan-Info.plist */,
+				F9E6A0E6B17BCF158ED6AAA644AB2EC1 /* NWLogan-prefix.pch */,
+				FE1296D66F59C41A2FE8B02F2748E5BF /* NWLogan-umbrella.h */,
+				8637EE95F8C29E804E5A4D8536BF4E33 /* NWLogan.debug.xcconfig */,
+				7D84944FBDCAF012498BFFEF85B09AC3 /* NWLogan.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/TestNWLogan/Pods/Target Support Files/NWLogan";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4577F56A9FC439A3F9F27234502FAC1E /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				56DF8A64464C37440D3FDFDFBFCE656E /* Products */,
+				B45D425D43E01C034464BAC4C51FE527 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0DAF3A97753C0C0C09F7AE90657997E /* mbedtls */ = {
+			isa = PBXGroup;
+			children = (
+				0A25CB4E36B22FF39BCA0ED06AEE48DC /* aes.c */,
+				A5359681F534648C96964CBE81ACE15B /* aes.h */,
+				89301A6198E798592E0EF147CFD1A743 /* aesni.c */,
+				543180C518EFFD6CE23BE926F9E1A515 /* aesni.h */,
+				0E689F5268738C293EDFDCDA05673FE8 /* check_config.h */,
+				DDF2C815CF3BB64C9F8AA7C1EBAE2809 /* config.h */,
+				B4A64434C7AFC6A75EC42EAD6DF86E76 /* padlock.h */,
+				3D8A9DD8E3B7FD200954FF8BC2F6BD0F /* platform.h */,
+				17EAFCAED847BA19BD90ACE23F3DD914 /* platform_time.h */,
+			);
+			name = mbedtls;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF8D10F490DC559B5BFB23D0CF7001F9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				3060039913131AECA45689BA758228FE /* LICENSE */,
+				E0F1107194135B3507E6CC72314D9210 /* NWLogan.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FCD2FAAE139F98F82ACF42B66C6131E9 /* Pods-TestNWLogan */ = {
+			isa = PBXGroup;
+			children = (
+				87FB2FAC5FABC00A5504858876D2F53A /* Pods-TestNWLogan.modulemap */,
+				09BF4C48974FBC4BDEEEBC678CE76447 /* Pods-TestNWLogan-acknowledgements.markdown */,
+				14D5B22DDFA80E3EE3D976BBE71F32E9 /* Pods-TestNWLogan-acknowledgements.plist */,
+				7D1E3F04C5CC97532F7633F5EA9EAFA4 /* Pods-TestNWLogan-dummy.m */,
+				7B071B25EA088D6764B1F7F72101392D /* Pods-TestNWLogan-frameworks.sh */,
+				CEA3F3D21319A516CB3A96389220A0B7 /* Pods-TestNWLogan-Info.plist */,
+				606FE2FC183350DDAD6BBAD2E7F22BB5 /* Pods-TestNWLogan-umbrella.h */,
+				B88224B796D37DB34A4185C55B6416A2 /* Pods-TestNWLogan.debug.xcconfig */,
+				F2D0C111D075256057AFF5ED6FF9AC9B /* Pods-TestNWLogan.release.xcconfig */,
+			);
+			name = "Pods-TestNWLogan";
+			path = "Target Support Files/Pods-TestNWLogan";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		14A63A994CF7E713CD0882DD03A28FBC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA92A26B08B38626EA0627958962B29F /* aes.h in Headers */,
+				A3E6EDAE0B13D77244953053BF99AC7A /* aes_util.h in Headers */,
+				C8A645C5FC6E458D309E4A119062978F /* aesni.h in Headers */,
+				1AD05043DE7DD74792B8100CF416CD3B /* base_util.h in Headers */,
+				ABBD9B1C2E13D740183FD3F472CB82CD /* check_config.h in Headers */,
+				53638F7DFD9CBDE46FD179C1BAE3B199 /* cJSON.h in Headers */,
+				FAAAFC40C958C803D6E68C0CE0A793B8 /* clogan_core.h in Headers */,
+				FC748FD564D724A6CBC54D0E98D33794 /* clogan_status.h in Headers */,
+				AC285E22BC3CA715ECC3030409B3BAAA /* config.h in Headers */,
+				70202F099240A4E4AAA0CDD47EDF6452 /* console_util.h in Headers */,
+				C11A5880DCD5345E14F6B17CFF81448B /* construct_data.h in Headers */,
+				B5A4A4E6F4D9A1049F3DE8F4C8CE1F53 /* directory_util.h in Headers */,
+				32E202701D095007C411FDFF8433894F /* json_util.h in Headers */,
+				FA47C2E77C51276ACDCB9AF4EFFEB479 /* Logan.h in Headers */,
+				F8657296C4493D24CC4B5CC93833782D /* logan_config.h in Headers */,
+				EEAABE7584ABBB6E2FE414123173A9DB /* mmap_util.h in Headers */,
+				7E9172C97AF93C83A67936DBC0B3FD0E /* NWLogan-umbrella.h in Headers */,
+				164C16F08B9D85EEF98BDB2457AE8280 /* padlock.h in Headers */,
+				81D77C9594DBD6712D19330566306175 /* platform.h in Headers */,
+				CD2B932D898F8D6917F12BFF27E38526 /* platform_time.h in Headers */,
+				A49E0E691CDED4A0DFEC30EEF4AFA0EC /* zlib_util.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61ECA62B1A5D49A862C58B7E482F638E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3410D79EB5E1210084A2724CA4E8A14 /* Pods-TestNWLogan-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		22C22B08A1BAB02823645E4C82F866F5 /* NWLogan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54295526515C2D4DB93629AFB681C84 /* Build configuration list for PBXNativeTarget "NWLogan" */;
+			buildPhases = (
+				14A63A994CF7E713CD0882DD03A28FBC /* Headers */,
+				DF2AED237A7D9EB1C87F596927C17F7B /* Sources */,
+				E2FEA4D146E1C47008CCA360F940C9B8 /* Frameworks */,
+				2AB85ACA4A2BA7B9EA6A1E8863E75324 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NWLogan;
+			productName = NWLogan;
+			productReference = 108285C1C3509595533EA3F5D9194629 /* NWLogan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3B950941B1E216FC506E17DE8FA1C8E6 /* Pods-TestNWLogan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9236FDB3EEDD10AC9655C75EB8A276E /* Build configuration list for PBXNativeTarget "Pods-TestNWLogan" */;
+			buildPhases = (
+				61ECA62B1A5D49A862C58B7E482F638E /* Headers */,
+				B7FA28CA6DE9586BC0C8C7053B659B70 /* Sources */,
+				CAF095E16AAD5CC41BD292BE911F661B /* Frameworks */,
+				E71DEF2AC4F1CAAD2F65EB5BA60F0020 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E06BCA156900485048D2C0591BABCE8B /* PBXTargetDependency */,
+			);
+			name = "Pods-TestNWLogan";
+			productName = "Pods-TestNWLogan";
+			productReference = E943F9C226EBCCD748C4D0F0BC09FF7A /* Pods_TestNWLogan.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 56DF8A64464C37440D3FDFDFBFCE656E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22C22B08A1BAB02823645E4C82F866F5 /* NWLogan */,
+				3B950941B1E216FC506E17DE8FA1C8E6 /* Pods-TestNWLogan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB85ACA4A2BA7B9EA6A1E8863E75324 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71DEF2AC4F1CAAD2F65EB5BA60F0020 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FA28CA6DE9586BC0C8C7053B659B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A97D44EAF5406B37C46F3215A80918E /* Pods-TestNWLogan-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF2AED237A7D9EB1C87F596927C17F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9042107D52F61C3BA99ACEE2FF8DF8E /* aes.c in Sources */,
+				F887BA3DDB506657806707B96A9BC00F /* aes_util.c in Sources */,
+				9CF41E616B65AF32FFD48D72D161218D /* aesni.c in Sources */,
+				08D22D40A96DB134EA9898FE3B5F4447 /* base_util.c in Sources */,
+				8792A381B45596862748777140C26713 /* cJSON.c in Sources */,
+				C4586747A55871AA7B35811C5ED4AAAE /* clogan_core.c in Sources */,
+				FCA7CBB680E763FB87D39D9F788F89F4 /* console_util.c in Sources */,
+				5B55632440347F879BC376A710C89641 /* construct_data.c in Sources */,
+				D66CEE60E561D1B13094B5CCFAA37D5D /* directory_util.c in Sources */,
+				284A5952416C196A97306E3A54D115D1 /* json_util.c in Sources */,
+				2F45C27BCEF79EC0F15A18A32D23F24D /* Logan.m in Sources */,
+				994D7C4A168BF45731504C3FA5E08E22 /* mmap_util.c in Sources */,
+				51EF5286A23A04EB5F2CB330FABA5D4C /* NWLogan-dummy.m in Sources */,
+				5AF878421CBB5DA448AAC70FED3F88E7 /* zlib_util.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E06BCA156900485048D2C0591BABCE8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NWLogan;
+			target = 22C22B08A1BAB02823645E4C82F866F5 /* NWLogan */;
+			targetProxy = 80C07EDD1893B29A4AE48CB9A8C14679 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4090CED6E6FEA545E39A30E5F7EAB511 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B88224B796D37DB34A4185C55B6416A2 /* Pods-TestNWLogan.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNWLogan/Pods-TestNWLogan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNWLogan/Pods-TestNWLogan.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7981E31531A26AAD799DFA819685C4D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2D0C111D075256057AFF5ED6FF9AC9B /* Pods-TestNWLogan.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestNWLogan/Pods-TestNWLogan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestNWLogan/Pods-TestNWLogan.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		BC09CFB253DD5E98BC6D2DBA5DCEB353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D84944FBDCAF012498BFFEF85B09AC3 /* NWLogan.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NWLogan/NWLogan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWLogan/NWLogan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NWLogan/NWLogan.modulemap";
+				PRODUCT_MODULE_NAME = NWLogan;
+				PRODUCT_NAME = NWLogan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E916B8FF7F2887754B515489D83D3CDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8637EE95F8C29E804E5A4D8536BF4E33 /* NWLogan.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NWLogan/NWLogan-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NWLogan/NWLogan-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NWLogan/NWLogan.modulemap";
+				PRODUCT_MODULE_NAME = NWLogan;
+				PRODUCT_NAME = NWLogan;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9236FDB3EEDD10AC9655C75EB8A276E /* Build configuration list for PBXNativeTarget "Pods-TestNWLogan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4090CED6E6FEA545E39A30E5F7EAB511 /* Debug */,
+				7981E31531A26AAD799DFA819685C4D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54295526515C2D4DB93629AFB681C84 /* Build configuration list for PBXNativeTarget "NWLogan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E916B8FF7F2887754B515489D83D3CDA /* Debug */,
+				BC09CFB253DD5E98BC6D2DBA5DCEB353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

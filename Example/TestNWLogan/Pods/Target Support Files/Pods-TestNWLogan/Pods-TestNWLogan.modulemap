@@ -1,0 +1,6 @@
+framework module Pods_TestNWLogan {
+  umbrella header "Pods-TestNWLogan-umbrella.h"
+
+  export *
+  module * { export * }
+}
