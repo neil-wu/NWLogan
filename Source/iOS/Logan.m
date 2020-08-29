@@ -160,7 +160,7 @@ NSString *_Nonnull loganTodaysDate(void) {
     NSInteger threadNum = 1;
     BOOL threadIsMain = [[NSThread currentThread] isMainThread];
     if (!threadIsMain) {
-        threadNum = [self getThreadNum];
+        threadNum = -1; //[self getThreadNum];
     }
     char *threadNameC = threadName ? (char *)threadName.UTF8String : "";
     if (LOGANUSEASL) {
@@ -229,6 +229,8 @@ NSString *_Nonnull loganTodaysDate(void) {
 }
 
 - (NSInteger)getThreadNum {
+    /*
+    // 2020-09-29, we don't care about thread num
     NSString *description = [[NSThread currentThread] description];
     NSRange beginRange = [description rangeOfString:@"{"];
     NSRange endRange = [description rangeOfString:@"}"];
@@ -260,6 +262,7 @@ NSString *_Nonnull loganTodaysDate(void) {
             }
         }
     }
+    */
     return -1;
 }
 

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name             = 'NWLogan'
-    s.version          = '1.2.7'
+    s.version          = '1.2.8'
     s.summary          = 'Remove unused encrypt files from [Project Logan](https://github.com/Meituan-Dianping/Logan)'
 
     s.homepage         = 'https://github.com/neil-wu/NWLogan'
